@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href = "{{url_for('static', filename = 'beauty.css')}}">
+        <title>Parkinson</title>
+    </head>
+
+    <body>
+        <header>
+            
+            <nav class="horizontal-nav">    
+                <h1 class="fade-in">Parkinsons Disease</h1>              
+                <ul>
+                    <li><a href = "{{url_for('home')}}">Home</a></li>
+                    <li><a href = "{{url_for('about')}}">About</a></li>
+                    <li><a href = "{{url_for('contact')}}">Contact</a></li>
+                </ul>
+            </nav>
+            <form class="custom-form">
+                <h1>Developers:</h1>
+                <div class="contact-container">
+                  <img src="{{ url_for('static', filename='khuzaima.jpg') }}" alt="Khuzaima Ayaz" width="150" height="150">
+                  <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <ul>
+                      <li>Name: Khuzaima Ayaz</li>
+                      <li>Email: <a href="https://mail.google.com/mail/?view=cm&to=ayazkhuzaima6@gmail.com">ayazkhuzaima6@gmail.com</a></li>
+                      <li>Phone: <a href="tel:+923338016740">+92 333 8016740</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="contact-container">
+                  <img src="{{ url_for('static', filename='tania.jpeg') }}" alt="Tania Tanveer" width="150" height="150">
+                  <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <ul>
+                      <li>Name: Tania Tanveer</li>
+                      <li>Email: <a href="https://mail.google.com/mail/?view=cm&to=taniatanveer104@gmail.com">taniatanveer104@gmail.com</a></li>
+                      <li>Phone: <a href="tel:"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <div class="contact-container">
+                  <img src="{{ url_for('static', filename='aliza.jpeg') }}" alt="Aliza Ijaz" width="150" height="150">
+                  <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <ul>
+                      <li>Name: Aliza Ijaz</li>
+                      <li>Email: <a href="https://mail.google.com/mail/?view=cm&to=alizaijaz2113@gmail.com">alizaijaz2113@gmail.com</a></li>
+                      <li>Phone: <a href="tel:"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                  <br>
+                  <br>
+            </form>
+        </header>
+    </body>

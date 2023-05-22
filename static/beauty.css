@@ -1,0 +1,128 @@
+body {
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-size: 45px;
+    color:rgb(56, 62, 121);
+  }
+  h2{
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color:rgb(46, 72, 99);
+}
+  h7{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(56, 62, 121);
+  }
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100px);
+    }
+  }
+  h3{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color:rgb(16, 58, 102);
+  }
+  .box {
+    width: 900px;
+    height: 40px;
+    background-color: #f2f2f2;
+    animation: slide 0.5s ease forwards;
+  }
+  
+
+  header {
+    background: #8590b4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e0dada, #b8c2e4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px;
+}
+.rounded-input {
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #2b4491;
+    background-color: transparent;
+    outline:#2b4491 ;
+    margin-top: 20px;
+    width: 200px
+  }
+  .contact-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+  }
+  
+  .custom-form {
+    background: rgba(16, 94, 136, 0.8); /* Set the background color with opacity */
+    background: -webkit-linear-gradient(to right, rgba(242, 252, 254, 0.8), rgba(28, 146, 210, 0.8));
+    background: linear-gradient(to right, rgba(242, 252, 254, 0.8), rgba(28, 146, 210, 0.8));
+    width: 1300px; /* Set the width of the form to 300 pixels */
+    height: 1200px; /* Set the height of the form to 200 pixels */
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  .horizontal-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.horizontal-nav li {
+    margin-right: 13px;
+}
+
+.horizontal-nav a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+label {
+    color:rgb(5, 35, 66);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Set the font family of the label to Arial or a fallback sans-serif font */
+  }
+  .rounded {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgba(16, 94, 136, 0.8); /* Set the background color with opacity */
+    background: -webkit-linear-gradient(to right, rgba(242, 252, 254, 0.8), rgba(28, 146, 210, 0.8));
+    background: linear-gradient(to right, rgba(242, 252, 254, 0.8), rgba(28, 146, 210, 0.8));
+  }
+  
